@@ -3,6 +3,7 @@
 
 #include "forExample.h"
 #include "p34_rdwr.h"
+#include "p40_mouse_click.h"
 
 #ifdef _DEBUG 
 #pragma comment (lib, "opencv_calib3d320d.lib") 
@@ -52,6 +53,10 @@ int main() {
 	switch (classSelector) {
 	case 34:
 		example.reset(new p34_rdwr());
+		example->run();
+		break;
+	case 40:
+		example.reset(new p40_mouse_click());
 		example->run();
 		break;
 	default:

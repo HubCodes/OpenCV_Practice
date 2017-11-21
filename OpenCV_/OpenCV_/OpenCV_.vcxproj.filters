@@ -30,6 +30,9 @@
     <ClInclude Include="p34_rdwr.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="p40_mouse_click.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,6 +42,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="p34_rdwr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p40_mouse_click.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
