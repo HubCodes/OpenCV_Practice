@@ -4,6 +4,7 @@
 #include "forExample.h"
 #include "p34_rdwr.h"
 #include "p40_mouse_click.h"
+#include "p41_draw_on_image.h"
 
 #ifdef _DEBUG 
 #pragma comment (lib, "opencv_calib3d320d.lib") 
@@ -53,15 +54,18 @@ int main() {
 	switch (classSelector) {
 	case 34:
 		example.reset(new p34_rdwr());
-		example->run();
 		break;
 	case 40:
 		example.reset(new p40_mouse_click());
-		example->run();
+		break;
+	case 41:
+		example.reset(new p41_draw_on_image());
 		break;
 	default:
 		std::cerr << "페이지와 관련된 코드가 없습니다.\n";
 		return -1;
 	}
+	example->run();
+
 	return 0;
 }
