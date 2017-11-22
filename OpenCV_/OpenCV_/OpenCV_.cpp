@@ -5,6 +5,7 @@
 #include "p34_rdwr.h"
 #include "p40_mouse_click.h"
 #include "p41_draw_on_image.h"
+#include "p43_cv_mat_class.h"
 
 #ifdef _DEBUG 
 #pragma comment (lib, "opencv_calib3d320d.lib") 
@@ -60,6 +61,9 @@ int main() {
 		break;
 	case 41:
 		example.reset(new p41_draw_on_image());
+		break;
+	case 43:
+		example.reset(new p43_cv_mat_class());
 		break;
 	default:
 		std::cerr << "페이지와 관련된 코드가 없습니다.\n";

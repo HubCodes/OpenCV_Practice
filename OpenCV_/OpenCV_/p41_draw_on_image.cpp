@@ -30,5 +30,5 @@ void p41_draw_on_image::run() {
 
 void p41_draw_on_image::welcomeMsg() {
 	std::clog << "[Study] OpenCV Practice by Hub : @class p41_draw_in_image\n";
-	std::clog << "[Study] This class provides \n";
+	std::clog << "[Study] This class provides drawing on image.\n";
 }
