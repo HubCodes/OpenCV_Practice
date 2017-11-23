@@ -154,6 +154,7 @@
     <ClInclude Include="p40_mouse_click.h" />
     <ClInclude Include="p41_draw_on_image.h" />
     <ClInclude Include="p43_cv_mat_class.h" />
+    <ClInclude Include="p53_region_of_interest.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -163,6 +164,7 @@
     <ClCompile Include="p40_mouse_click.cpp" />
     <ClCompile Include="p41_draw_on_image.cpp" />
     <ClCompile Include="p43_cv_mat_class.cpp" />
+    <ClCompile Include="p53_region_of_interest.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
