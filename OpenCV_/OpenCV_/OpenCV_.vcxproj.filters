@@ -42,6 +42,9 @@
     <ClInclude Include="p53_region_of_interest.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="p62_sap_noise.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -63,6 +66,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="p53_region_of_interest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p62_sap_noise.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

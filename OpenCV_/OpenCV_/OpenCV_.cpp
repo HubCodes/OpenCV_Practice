@@ -7,6 +7,7 @@
 #include "p41_draw_on_image.h"
 #include "p43_cv_mat_class.h"
 #include "p53_region_of_interest.h"
+#include "p62_sap_noise.h"
 
 #ifdef _DEBUG 
 #pragma comment (lib, "opencv_calib3d320d.lib") 
@@ -68,6 +69,9 @@ int main() {
 		break;
 	case 53:
 		example.reset(new p53_region_of_interest());
+		break;
+	case 62:
+		example.reset(new p62_sap_noise());
 		break;
 	default:
 		std::cerr << "페이지와 관련된 코드가 없습니다.\n";
