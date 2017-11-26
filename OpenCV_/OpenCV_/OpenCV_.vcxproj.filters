@@ -45,6 +45,9 @@
     <ClInclude Include="p62_sap_noise.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="p67_reduce_color.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -69,6 +72,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="p62_sap_noise.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p67_reduce_color.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
