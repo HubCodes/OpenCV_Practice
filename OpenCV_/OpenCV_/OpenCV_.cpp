@@ -9,6 +9,7 @@
 #include "p53_region_of_interest.h"
 #include "p62_sap_noise.h"
 #include "p67_reduce_color.h"
+#include "p87_img_sharpen.h"
 
 #ifdef _DEBUG 
 #pragma comment (lib, "opencv_calib3d320d.lib") 
@@ -76,6 +77,9 @@ int main() {
 		break;
 	case 67:
 		example.reset(new p67_reduce_color());
+		break;
+	case 87:
+		example.reset(new p87_img_sharpen());
 		break;
 	default:
 		std::cerr << "페이지와 관련된 코드가 없습니다.\n";

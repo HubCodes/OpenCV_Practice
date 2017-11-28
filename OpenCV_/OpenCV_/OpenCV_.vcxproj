@@ -157,6 +157,7 @@
     <ClInclude Include="p53_region_of_interest.h" />
     <ClInclude Include="p62_sap_noise.h" />
     <ClInclude Include="p67_reduce_color.h" />
+    <ClInclude Include="p87_img_sharpen.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -169,6 +170,7 @@
     <ClCompile Include="p53_region_of_interest.cpp" />
     <ClCompile Include="p62_sap_noise.cpp" />
     <ClCompile Include="p67_reduce_color.cpp" />
+    <ClCompile Include="p87_img_sharpen.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
